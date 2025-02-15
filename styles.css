@@ -1,0 +1,43 @@
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+canvas {
+    border: 2px solid #333;
+    background: #111;
+}
+
+#next-piece {
+    width: 40px;
+    height: 40px;
+    background: #000;
+    border: 2px solid #333;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.score {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+body {
+    font-size: 24px;
+    font-family: Arial,
+        sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
